@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    height: 160px;
+    background: linear-gradient(to right,#cb11ab 0,#481173 100%) no-repeat;
+    position: relative;
+    margin: 0;
+    padding: 0; 
+}
+.top_logo{
+    height: 100px;
+}
+nav{
+    margin-bottom: 15px;
+    padding-top: 10px;
+}
+
+.header_buttons{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font: 17px "Montserrat";
+}
