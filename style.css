@@ -30,3 +30,53 @@ nav{
     color: white;
     font: 17px "Montserrat";
 }
+
+.aside_buttons{
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(128, 0, 117);
+    font: 17px "Montserrat";
+    margin-left:20px;
+}
+
+.caption{
+    padding-left: 20px;
+}
+.catalog{
+    width: 100%;
+    padding: 10px;
+}
+.device{
+    width: 300px;
+    display: inline-block;
+    border: 1px solid rgb(128, 0, 117);
+    padding:10px;
+}
+
+container{
+    display:flex;
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(128, 0, 117);
+    border-top: 0px;
+    border-left: 0px;
+    width:300px;
+}
+
+h1{
+    font: 30px "Montserrat";
+}
+
+aside a:hover{
+    color: grey;
+}
+header a:hover{
+    color: #0f0f0f;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font: 20px "Montserrat";
+}
